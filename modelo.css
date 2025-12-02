@@ -1,0 +1,62 @@
+body {
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #1f1f1f;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.location {
+    color: #b2ff59; /* Verde fosforescente */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    color: #ccc;
+    margin: 15px 0 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #333;
+    padding: 12px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #444;
+}
