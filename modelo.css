@@ -1,11 +1,20 @@
 body {
     background-color: #141414;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+}
+
+p {
+    color: blue;
+    font-size: 14px;
+    letter-spacing: 0.05em;
 }
 
 .card {
@@ -15,6 +24,8 @@ body {
     border-radius: 15px;
     text-align: center;
     color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .avatar {
@@ -27,18 +38,26 @@ body {
 .name {
     font-size: 22px;
     margin: 5px 0;
+    color: green;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .location {
-    color: #b2ff59; /* Verde fosforescente */
+    color: #b2ff59;
     font-size: 14px;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .description {
     font-size: 14px;
     color: #ccc;
     margin: 15px 0 25px;
+    font-style: italic;
+    line-height: 1.5;
 }
 
 .links {
@@ -54,23 +73,14 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-weight: 700;
     transition: 0.3s;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .btn:hover {
     background-color: #444;
-}
-
-
-body {
-   
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.card {
- 
-    font-size: 16px;
 }
 
 .info-section {
@@ -78,30 +88,36 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
- 
+    font-family: 'Roboto', sans-serif;
 }
 
 .info-section h3 {
     margin: 0 0 15px 0;
     color: #b2ff59;
-   
     font-size: 18px;
     font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
 }
 
 .info-section p {
     margin: 8px 0;
     font-size: 14px;
- 
+    color: green;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
-h2, h3 {
-  
+#mi-id {
+    color: red;
 }
 
-.btn {
-   
-    display: block;
+.mi-clase {
+    color: green;
+}
 
-    font-weight: inherit;
+p {
+    color: blue !important;
 }
