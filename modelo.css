@@ -60,3 +60,48 @@ body {
 .btn:hover {
     background-color: #444;
 }
+
+
+body {
+   
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.card {
+ 
+    font-size: 16px;
+}
+
+.info-section {
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+ 
+}
+
+.info-section h3 {
+    margin: 0 0 15px 0;
+    color: #b2ff59;
+   
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-section p {
+    margin: 8px 0;
+    font-size: 14px;
+ 
+}
+
+h2, h3 {
+  
+}
+
+.btn {
+   
+    display: block;
+
+    font-weight: inherit;
+}
