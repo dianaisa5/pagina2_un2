@@ -4,35 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Card</title>
-    <!-- Google Fonts: Roboto con diferentes estilos -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="modelo.css">
 </head>
 <body>
+    <header class="sticky-header">
+        <h1>Diana - Frontend Developer</h1>
+    </header>
 
-    <div class="card">
-        <img src="AFKUE6016.jpg" alt="Profile" class="avatar">
+    <main class="main-container">
+        <div class="card">
+            <img src="AFKUE6016.jpg" alt="Profile" class="avatar">
+            <h2 class="name">Diana</h2>
+            <p class="location">CDMX</p>
+            <p class="description">"Frontend deviloper"</p>
 
-        <h2 class="name">Diana</h2>
-        <p class="location">CDMX</p>
+            <div class="info-section">
+                <h3>Habilidades</h3>
+                <div class="skills-container">
+                    <span class="skill-item">HTML</span>
+                    <span class="skill-item">CSS</span>
+                    <span class="skill-item">JavaScript</span>
+                </div>
+            </div>
 
-        <p class="description">"Frontend deviloper"</p>
-
-        <div class="info-section">
-            <h3>Habilidades</h3>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
+            <div class="links">
+                <a href="#" class="btn">GitHub</a>
+                <a href="#" class="btn">Frontend</a>
+                <a href="#" class="btn">LinkedIn</a>
+                <a href="#" class="btn">Twitter</a>
+                <a href="#" class="btn">Instagram</a>
+            </div>
         </div>
 
-        <div class="links">
-            <a href="#" class="btn">GitHub</a>
-            <a href="#" class="btn">Frontend </a>
-            <a href="#" class="btn">LinkedIn</a>
-            <a href="#" class="btn">Twitter</a>
-            <a href="#" class="btn">Instagram</a>
-        </div>
-    </div>
+        <section class="projects-section">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>FireWatch</h3>
+                    </div>
+                    <p class="project-description">Sistema contra incendios forestales. Utilizando tecnologia IoT y un servidor java.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Arduino</span>
+                    </div>
+                </div>
 
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Fit AI</h3>
+                    </div>
+                    <p class="project-description">Aplicacion android desarrollada para apoyarte en tu rutina de ejercicio. Utiliza tecnologias de IA principalmente ML Kit Pose Detection</p>
+                    <div class="project-tags">
+                        <span class="tag">Android Studio</span>
+                        <span class="tag">Kotlin</span>
+                        <span class="tag">ML Kit Pose Detection</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+   
+    
 </body>
 </html>
