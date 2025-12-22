@@ -403,3 +403,131 @@ p {
     background-color: #218838;
     transform: scale(1.02);
 }
+
+.flexbox-alignment-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 60px;
+}
+
+.flexbox-alignment-section h2 {
+    color: #b2ff59;
+    font-size: 28px;
+    margin: 0 0 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.alignment-example {
+    background-color: #1f1f1f;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-left: 4px solid #007BFF;
+}
+
+.alignment-example h3 {
+    margin: 0 0 10px 0;
+    color: #b2ff59;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.example-subtitle {
+    color: #28a745;
+    font-size: 13px;
+    margin: 0 0 15px 0;
+    font-style: italic;
+    letter-spacing: 0.03em;
+}
+
+.flex-demo {
+    display: flex;
+    background-color: #333;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.work-experience {
+    justify-content: space-between;
+    min-height: 100px;
+    align-items: center;
+}
+
+.work-item {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.work-item:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.work-duration {
+    font-size: 12px;
+    color: #ddd;
+    font-style: italic;
+}
+
+.specialties {
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+    flex-wrap: wrap;
+}
+
+.specialty-item {
+    background-color: #FF6B6B;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.specialty-item:hover {
+    background-color: #28a745;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}
+
+.specialty-icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.specialty-name {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.demo-description {
+    color: #ccc;
+    font-size: 13px;
+    margin: 0;
+    font-style: italic;
+    letter-spacing: 0.03em;
+}

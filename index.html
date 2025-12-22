@@ -65,12 +65,88 @@
                     </div>
                 </div>
 
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Portfolio Web</h3>
+                    </div>
+                    <p class="project-description">Sitio web personal para mostrar proyectos y habilidades como desarrolladora frontend</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Flexbox</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flexbox-alignment-section">
+            <h2>Distribucion de Contenido</h2>
+            
+            <div class="alignment-example">
+                <h3>Experiencia laboral l</h3>
+                <div class="flex-demo work-experience">
+                    <div class="work-item">
+                        <div class="work-title">Frontend Developer</div>
+                        <div class="work-duration">2023 - Presente</div>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-title">UI/UX Designer</div>
+                        <div class="work-duration">2022 - 2023</div>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-title">Web Developer</div>
+                        <div class="work-duration">2021 - 2022</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alignment-example">
+                <h3>Areas de especialidad </h3>
+                <div class="flex-demo specialties">
+                    <div class="specialty-item">
+                        <div class="specialty-icon">🎨</div>
+                        <div class="specialty-name">Diseño UI</div>
+                    </div>
+                    <div class="specialty-item">
+                        <div class="specialty-icon">⚙️</div>
+                        <div class="specialty-name">Frontend</div>
+                    </div>
+                    <div class="specialty-item">
+                        <div class="specialty-icon">📱</div>
+                        <div class="specialty-name">Responsive</div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
+    <label for="contact-toggle" class="fixed-contact">
+        Contáctanos
+    </label>
 
-   
+    <input type="checkbox" id="contact-toggle" class="contact-toggle">
     
+    <div class="modal-overlay"></div>
+    <div class="modal">
+        <div class="modal-header">
+            <h2>Ponte en contacto</h2>
+            <label for="contact-toggle" class="close-btn">&times;</label>
+        </div>
+        <form class="modal-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
