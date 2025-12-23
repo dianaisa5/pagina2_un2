@@ -533,7 +533,7 @@ p {
 .responsive-item.adjusted {
     position: relative;
     left: 15px;
-    
+    background-color: #FF9500;
 }
 }
 
@@ -621,6 +621,180 @@ p {
 .responsive-item:hover {
     background-color: #28a745;
     box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+}
+
+.media-queries-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 60px;
+}
+
+.media-queries-section h2 {
+    color: #b2ff59;
+    font-size: 28px;
+    margin: 0 0 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profile-responsive {
+    display: flex;
+    background-color: #333;
+    padding: 25px;
+    border-radius: 8px;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info h4 {
+    margin: 0;
+    color: green;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile-location {
+    color: #b2ff59;
+    font-size: 12px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.profile-role {
+    color: #ccc;
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    font-style: italic;
+}
+
+.profile-additional {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+}
+
+.additional-role {
+    color: #28a745;
+    font-size: 12px;
+    margin: 3px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.profile-details {
+    margin-top: 15px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+.detail-label {
+    color: #b2ff59;
+    font-size: 11px;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.skills-list,
+.specialties-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-badge,
+.specialty-badge {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.specialty-badge {
+    background-color: #FF6B6B;
+}
+
+.info-note {
+    color: #b2ff59;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .profile-responsive {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        align-items: center;
+    }
+
+    .skills-list,
+    .specialties-list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-responsive {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-info h4 {
+        font-size: 16px;
+    }
+
+    .profile-details {
+        margin-top: 10px;
+        padding-top: 8px;
+    }
+
+    .detail-label {
+        font-size: 10px;
+        margin: 0 0 6px 0;
+    }
+
+    .skill-badge,
+    .specialty-badge {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .media-queries-section h2 {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
 }
 
 .responsive-item.adjusted {
