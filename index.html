@@ -2,184 +2,94 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Diana Costa | Portafolio Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="modelo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="sticky-header">
-        <h1>Diana - Frontend Developer</h1>
-    </header>
 
-    <main class="main-container">
-        <div class="card">
-            <img src="AFKUE6016.jpg" alt="Profile" class="avatar">
-            <h2 class="name">Diana</h2>
-            <p class="location">CDMX</p>
-            <p class="description">"Frontend deviloper"</p>
+<header class="header">
+    <h1>Diana Isabel Costa Durán</h1>
+    <p>Frontend Developer & Ciberseguridad</p>
+</header>
 
-            <div class="info-section">
-                <h3>Habilidades</h3>
-                <div class="skills-container">
-                    <span class="skill-item">HTML</span>
-                    <span class="skill-item">CSS</span>
-                    <span class="skill-item">JavaScript</span>
-                </div>
-            </div>
+<main class="container">
 
-            <div class="links">
-                <a href="#" class="btn">GitHub</a>
-                <a href="#" class="btn">Frontend</a>
-                <a href="#" class="btn">LinkedIn</a>
-                <a href="#" class="btn">Twitter</a>
-                <a href="#" class="btn">Instagram</a>
+    <section class="profile">
+        <img src="AFKUE6016.jpg" alt="Diana" class="avatar">
+
+        <div class="profile-info">
+            <h2>Información profesional</h2>
+            <p>
+                Estudiante de Ingeniería en Sistemas en el Tecnológico de Zitácuaro (9° semestre).
+                Me enfoco en desarrollo frontend, ciberseguridad, redes y análisis de datos.
+            </p>
+            <div class="social-links">
+                <a href="http://linkedin.com/in/acostadurandiana" target="_blank">LinkedIn</a>
+                <a href="https://discord.com/users/diana_acosta1" target="_blank">Discord</a>
             </div>
         </div>
+    </section>
 
-        <section class="projects-section">
-            <h2>Proyectos Destacados</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>FireWatch</h3>
-                    </div>
-                    <p class="project-description">Sistema contra incendios forestales. Utilizando tecnologia IoT y un servidor java.</p>
-                    <div class="project-tags">
-                        <span class="tag">Java</span>
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">Arduino</span>
-                    </div>
-                </div>
+    <section class="skills">
+        <h2>Habilidades Técnicas</h2>
 
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Fit AI</h3>
-                    </div>
-                    <p class="project-description">Aplicacion android desarrollada para apoyarte en tu rutina de ejercicio. Utiliza tecnologias de IA principalmente ML Kit Pose Detection</p>
-                    <div class="project-tags">
-                        <span class="tag">Android Studio</span>
-                        <span class="tag">Kotlin</span>
-                        <span class="tag">ML Kit Pose Detection</span>
-                    </div>
-                </div>
+        <div class="skills-grid">
+            <div class="skill">HTML5</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">PHP</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Java</div>
+            <div class="skill">Ciberseguridad</div>
+            <div class="skill">Redes Cisco</div>
+        </div>
+    </section>
 
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Portfolio Web</h3>
-                    </div>
-                    <p class="project-description">Sitio web personal para mostrar proyectos y habilidades como desarrolladora frontend</p>
-                    <div class="project-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">Flexbox</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="projects">
+        <h2>Proyectos Destacados</h2>
 
-        <section class="position-properties-section">
-            <h2>Posicionamiento</h2>
-            
-            <div class="style-example">
-                <h3> FireWatch</h3>
-                <div class="position-demo-container firewatch-demo">
-                    <div class="layer-item layer-base">Sensor de Temperatura</div>
-                    <div class="layer-item layer-overlay-1">Red Inalámbrica</div>
-                    <div class="layer-item layer-overlay-2">API Backend</div>
-                    <div class="layer-item layer-overlay-3">Base de Datos</div>
-                </div>
-            </div>
+        <div class="projects-grid">
+            <article class="project-card">
+                <h3>FireWatch</h3>
+                <p>
+                    Sistema IoT para detección de incendios forestales usando sensores,
+                    servidor Java y red inalambrica.
+                </p>
+            </article>
 
-            <div class="style-example">
-                <h3> Responsive design</h3>
-                <div class="position-demo-container responsive-demo">
-                    <div class="responsive-item">Navbar</div>
-                    <div class="responsive-item adjusted">Contenido Principal</div>
-                    <div class="responsive-item">Footer</div>
-                </div>
-            </div>
-        </section>
+            <article class="project-card">
+                <h3>Fit AI</h3>
+                <p>
+                    Aplicación Android con ML Kit Pose Detection para análisis
+                    de rutinas de ejercicio.
+                </p>
+            </article>
 
-        <section class="flexbox-alignment-section">
-            <h2>Distribucion de Contenido</h2>
-            
-            <div class="alignment-example">
-                <h3>Experiencia laboral </h3>
-                <div class="flex-demo work-experience">
-                    <div class="work-item">
-                        <div class="work-title">Frontend Developer</div>
-                        <div class="work-duration">Presente</div>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-title">UI/UX Designer</div>
-                        <div class="work-duration">2022 - 2023</div>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-title">Web Developer</div>
-                        <div class="work-duration">2021 - 2022</div>
-                    </div>
-                </div>
-            </div>
+            <article class="project-card">
+                <h3>Abarrotes DN</h3>
+                <p>
+                    Sistema Pweb con inventario, lector de codigos de barras,
+                    roles de usuario y corte de caja.
+                </p>
+            </article>
+        </div>
+    </section>
 
-            <div class="alignment-example">
-                <h3>Areas de especialidad </h3>
-                <div class="flex-demo specialties">
-                    <div class="specialty-item">
-                        <div class="specialty-icon">🎨</div>
-                        <div class="specialty-name">Diseño UI</div>
-                    </div>
-                    <div class="specialty-item">
-                        <div class="specialty-icon">⚙️</div>
-                        <div class="specialty-name">Frontend</div>
-                    </div>
-                    <div class="specialty-item">
-                        <div class="specialty-icon">📱</div>
-                        <div class="specialty-name">Responsive</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="specialties">
+        <div class="chip"> UI / UX</div>
+        <div class="chip"> Frontend</div>
+        <div class="chip">Ciberseguridad</div>
+        <div class="chip">Redes</div>
+        <div class="chip">Analisis de datos</div>
+    </section>
 
-        <section class="">
-            
-            <div class="alignment-example">
-                <h3>Mi Perfil Adaptable</h3>
-                <div class="">
-                    <img src="AFKUE6016.jpg" alt="Diana" class="profile-img">
-                    <div class="profile-info">
-                        <h4>Diana</h4>
-                        <p class="profile-location">CDMX, México</p>
-                        <p class="profile-role">Frontend Developer</p>
-                        <div class="">
-                            <p class="additional-role">Analista de Ciberseguridad</p>
-                            <p class="additional-role">Networks Cisco</p>
-                            <p class="additional-role">Desarrollo de Software</p>
-                        </div>
-                        <div class="profile-details">
-                            <p class="detail-label">Habilidades:</p>
-                            <div class="skills-list">
-                                <span class="skill-badge">HTML</span>
-                                <span class="skill-badge">CSS</span>
-                                <span class="skill-badge">JavaScript</span>
-                            </div>
-                        </div>
-                        <div class="profile-details">
-                            <p class="detail-label">Especialidades:</p>
-                            <div class="specialties-list">
-                                <span class="specialty-badge">Diseño UI</span>
-                                <span class="specialty-badge">Frontend</span>
-                                <span class="specialty-badge">Responsive</span>
-                                <span class="specialty-badge">Ciberseguridad</span>
-                                <span class="specialty-badge">Networks</span>
-                                <span class="specialty-badge">Software</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+</main>
+
+<footer class="footer">
+    <p>@2025 Diana Acosta Durán | Ingeniería en Sistemas | desarrolladora </p>
+</footer>
+
 </body>
 </html>
